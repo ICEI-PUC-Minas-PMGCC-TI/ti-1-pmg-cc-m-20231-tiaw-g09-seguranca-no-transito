@@ -1,19 +1,18 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11270858&assignment_repo_type=AssignmentRepo)
 # Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O projeto STEERO foi uma iniciativa dos Alunos da pucminas, com o objetivo de criar inicialmente um webapp que auxiliasse na segurança do trânsito, na condução do carro por motoristas e no alerta do excesso de velocidade para os mais desatentos.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Kaik França da Silva
+* Paula Maria
+* Carlos Eduardo Nascimento
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* João Carlos Oliveira Caetano
+* Simone de Assis Alves da Silva
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Ademais o web se encontra utilizável nas partes de Login que deve se entrar com os Logins e senha de "Admin", atualizações futuras serão alertadas pelo Read-me
