@@ -1,0 +1,9 @@
+.texto {
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 1080px){ 
+    .texto {
+    margin-left: -8px;
+    }
+}
