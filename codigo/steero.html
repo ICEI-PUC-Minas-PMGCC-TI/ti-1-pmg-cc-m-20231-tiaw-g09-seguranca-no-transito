@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdgdNrNhVreqkLt9i2bTrE5mb6Q-IuQoE&callback=initMap"defer>
-    </script>
+    
+   
+
     <link rel="stylesheet" href="velocimetro.css" class="css">
 </head>
+
 <body>
 
     <div id="velocimetro">
-        
+
+
+
+        <div id="velocidade">0</div>
+
+        <div>Km/h</div>
+
+    </div>
     
-    
-    <div id="velocidade">0</div>
+    <script src="steero.js"></script>
 
-    <div>Km/h</div>
+    <script>
+        const apiKey = "AIzaSyAYpUu5350iuiBWiLuepeN0xJHVnt4Hf_o";
 
-</div>
-    
+const request = {
+  "considerIp": true
+};
 
+const requestOptions = {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify(request)
+};
 
-<script src="steero.js"></script>
+fetch(`https://www.googleapis.com/geolocation/v1/geolocate?key=${apiKey}`, requestOptions)
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    // Manipule a resposta da API Geolocation aqui
+  })
+  .catch(error => {
+    console.error('Erro:', error);
+  });
+    </script>
+ 
+    <script
+    src="https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyAYpUu5350iuiBWiLuepeN0xJHVnt4Hf_o">
+</script>
+
 </body>
+
 </html>
