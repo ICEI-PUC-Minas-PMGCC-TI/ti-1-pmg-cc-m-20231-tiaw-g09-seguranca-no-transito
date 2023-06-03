@@ -16,3 +16,10 @@ O projeto STEERO foi uma iniciativa dos Alunos da pucminas, com o objetivo de cr
 ## Instruções de utilização
 
 Ademais o web se encontra utilizável nas partes de Login que deve se entrar com os Logins e senha de "Admin", atualizações futuras serão alertadas pelo Read-me
+
+Resumo das sprints;
+Sprint 1: Foi feito o envio dos relatórios e planejamentos para as futuras Sprints para o trabalho interdiciplinar, apresentações em PowerPoint e Personas.
+
+Sprint 2: Planejado entre o grupo e seus integrantes a melhora do WebSite STEERO com mais animações, informações e um visual melhor, adicionado também botões para futuras funcionalidades.
+
+Sprint 3: Está sendo planejado para a sprint 3 a criação de um velocímetro funcional que identifique a velocidade do veículo pelo GPS.
