@@ -10,14 +10,14 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="steero.css" class="css">
-    
+
 </head>
 
 <body style="background-color: rgb(141, 139, 139);">
 
     <!--NavBar-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark"
         style="background: #fceabb; /* Old browsers */
         background:background: #000000; /* Old browsers */
         background: -moz-linear-gradient(left, #000000 5%, #195da0 50%, #3533cd 60%, #3533cd 70%, #3533cd 95%, #3533cd 95%); /* FF3.6-15 */
@@ -35,9 +35,13 @@
         <div class="barra">
 
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+
+
+
+                <span class="navbar-toggler-icon">
+                </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
@@ -45,7 +49,7 @@
                 <ul class="navbar-nav"
                     style="font-family: sans-serif; font-size: 21px; font-weight: bold; margin-left: 20px;">
                     <li class="nav-item active">
-                        <a class="nav-item nav-link active" href="#" style="color: white;">Ajuda<span
+                        <a class="nav-item nav-link active" href="#" style="color: white; margin-left: 40px;">Ajuda<span
                                 class="sr-only"></span></a>
                     </li>
                     <!--Tema-->
@@ -56,11 +60,16 @@
                     <li class="nav-item">
                         <a class="nav-item nav-link" href="#" style="color: white; margin-left: 40px;">Sobre</a>
                     </li>
+                    <!--Velocímetro-->
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="steero.html"
+                            style="color: grey; margin-left: 40px; strong;">Velocimetro</a>
+                    </li>
                     <!--Configurações-->
                     <li class="dropdown">
                         <a class="btn dropdown-toggle" type="button" href="#" id="navbarDropdownMenuLink"
                             data-bs-toggle="dropdown"
-                            style="color: white; margin-left: 50px; font-family: sans-serif; font-size: 21px; font-weight: bold;"
+                            style="color: white; margin-left: 40px; font-family: sans-serif; font-size: 21px; font-weight: bold;"
                             aria-haspopup="true" aria-expanded="false">
                             Configurações
                         </a>
@@ -73,7 +82,7 @@
 
                     <!--Login-->
                     <li class="nav-item">
-                        <a class="nav-link" href="login.html" style="color: white; margin-left: 800px;">Login</a>
+                        <a class="nav-link" href="login.html" style="color: white; margin-left: 250px;">Login</a>
                     </li>
                 </ul>
             </div>
@@ -87,32 +96,39 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-5 col-sm-4" style="margin-top: 40px;">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, aut dolor sit voluptatibus
-                    exercitationem
-                    possimus ipsa obcaecati qui harum eius vel quisquam labore, expedita pariatur eaque? Est quod
-                    tenetur ab
-                    earum accusamus nisi facere placeat iste, recusandae excepturi tempore quae praesentium quia, a
-                    eligendi
-                    animi veniam dolore dolores, fugiat nostrum rerum repellendus provident harum quo. Lorem ipsum dolor
-                    sit
-                    amet consectetur adipisicing elit. Est laudantium nam facilis maiores mollitia iste eos animi iusto
-                    molestiae quo suscipit, placeat minus. Quasi debitis hic quos cum quae rem minus mollitia, earum
-                    maiores
-                    animi corrupti esse adipisci nulla dolorum, culpa unde, at provident voluptatum nostrum explicabo
-                    sint
-                    dignissimos molestiae necessitatibus praesentium. Sit, quidem est.
+                    O número alarmante de acidentes de trânsito causados no Brasil devido a problemas diversos revela a
+                    falta de segurança no país. A população demonstra uma postura irresponsável no trânsito, o que nos
+                    distancia de um país com um tráfego seguro e exemplar.
 
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas recusandae praesentium nesciunt
-                    eveniet
-                    eius perferendis minus, iure tempora quod voluptate obcaecati quae, provident delectus pariatur
-                    consequatur! Alias, quisquam! Accusamus, optio.
+                    Este projeto visa solucionar a falta de segurança no trânsito brasileiro, que é agravada pela
+                    ausência de ferramentas online de apoio. O objetivo geral é desenvolver um WebApp chamado Steero,
+                    que busca promover a segurança e reduzir a irresponsabilidade no trânsito.
 
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, facilis vero accusamus commodi
-                    quisquam quam beatae eum! Odio corporis repellat reprehenderit voluptatum non eius, harum cum,
-                    sapiente
-                    voluptate sed maxime vero. Vitae, a. Neque ullam ipsam reiciendis natus, vel odit, sit voluptas
-                    optio
-                    quibusdam voluptatem quas facilis laboriosam, porro sapiente.
+                    Os objetivos específicos incluem a implementação de um velocímetro personalizado na tela do
+                    smartphone do usuário, que fornecerá alertas sobre os limites de velocidade da via por meio do GPS.
+                    Além disso, o aplicativo será integrado a outras plataformas utilizadas por motoristas de
+                    aplicativos. Como um projeto futuro, planeja-se limitar a velocidade dos veículos de forma
+                    automática, ajustando-os aos limites propostos pela via e tornando o trânsito mais seguro para os
+                    usuários do aplicativo.
+
+                    A justificativa para o desenvolvimento do aplicativo baseia-se no fato de que atualmente os veículos
+                    com recursos semelhantes, que proporcionam uma experiência consideravelmente mais segura, possuem um
+                    preço extremamente elevado. Por exemplo, o carro da empresa de Elon Musk, o Tesla, nativamente
+                    possui a função de identificar a velocidade da via e ajustar o veículo automaticamente. No entanto,
+                    o alto custo de um Tesla, cerca de R$900.000, torna essa função inacessível para grande parte do
+                    público.
+
+                    De acordo com o IPEA (Instituto de Pesquisa Econômica Aplicada), os acidentes de trânsito no Brasil
+                    resultam em aproximadamente 45 mil mortes anuais e um custo econômico de R$50 bilhões. Isso
+                    demonstra que o problema não se restringe apenas ao aspecto social, mas também causa impactos
+                    econômicos significativos.
+
+                    O público-alvo desse trabalho consiste, principalmente, em pessoas que recentemente obtiveram sua
+                    carteira de habilitação. Isso pode contribuir para o desenvolvimento de uma consciência maior no
+                    trânsito, evitando multas e infrações que poderiam resultar na perda da carteira provisória. Além
+                    disso, o aplicativo também visa auxiliar os idosos, compreendendo suas limitações decorrentes da
+                    idade avançada. No entanto, qualquer pessoa que deseje obter maior segurança e apoio no trânsito
+                    poderá utilizar o aplicativo.
                 </div>
                 <div class="col-lg-6 col-3"
                     style="background-color: rgb(168, 165, 165); margin-top: 30px; margin-left: 40px; padding: 30px;">
@@ -124,30 +140,16 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-6 col-3" style="margin-left: 140px; margin-top: 50px; border-radius: 50px;">
-        <iframe
-            src="https://sgapucminasbr-my.sharepoint.com/personal/1354340_sga_pucminas_br/_layouts/15/Doc.aspx?sourcedoc={47ecc4c5-6c7f-43ab-963f-a03a48d27f1f}&amp;action=embedview&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=1"
-            width="1080px" height="720px" frameborder="0">Este é um apresentação do <a target="_blank"
-                href="https://office.com">Microsoft Office</a> incorporado, da plataforma <a target="_blank"
-                href="https://office.com/webapps">Office</a>.</iframe>
-    </div>
 
     <footer style="background-color: rgb(104, 103, 103);">
         <center>Steero 2023</center>
     </footer>
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 
-        <script src="steero.js"></script>
+    <script src="steero.js"></script>
 
-        <a href="steero.html">asds</a>
 </body>
 
 </html>
