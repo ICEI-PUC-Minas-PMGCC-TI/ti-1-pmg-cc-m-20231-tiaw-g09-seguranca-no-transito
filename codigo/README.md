@@ -1,5 +1,7 @@
 # Código do Projeto
 
-Mantenha neste diretório todo o código fonte do projeto. 
+## Atualizações do atual código para Sprint 3:
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+Foram adicionadas novas funcionalidades na barra para um velocímetro que mede a velocidade do carro com Wifi, baseando-se no GPS com a API do Google "Geolocation API"
+
+Agora também foram organizadas a responsividade do Site e a NavBar que estava com problemas
