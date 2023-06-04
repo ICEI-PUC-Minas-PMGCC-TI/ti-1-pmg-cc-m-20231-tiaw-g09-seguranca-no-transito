@@ -13,3 +13,5 @@ https://ste-teste.kaikyfranca.repl.co/
 Utilizar de um dispositivo móvel com o GPS ativado, basta procurar por "Velocímetro" e clicar que já está funcionando 
 Caso não tenha dispositivo móvel, deixarei um vídeo de um teste feito dentro de um carro que mostra o velocímetro
 
+Obs: O velocimetro não está 100% preciso ainda por conta do delay entre a API, internet e o GPS, melhorarei futuramente...
+
