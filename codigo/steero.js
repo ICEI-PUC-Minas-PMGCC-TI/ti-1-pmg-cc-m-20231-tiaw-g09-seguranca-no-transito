@@ -35,3 +35,5 @@ function updatePosition(position){
 function handleError(error){
 		console.log(error.message)
 }
+
+

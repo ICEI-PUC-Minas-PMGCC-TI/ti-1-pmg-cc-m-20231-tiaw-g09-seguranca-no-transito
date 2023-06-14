@@ -19,7 +19,7 @@ body {
     align-items: center;
     background-color: rgb(85, 84, 84);
     width: 355px;
-    height: 320px;
+    height: 420px;
     padding: 35px;
     border-radius: 10px;
 }
@@ -39,6 +39,7 @@ body {
     height: 45px;
     outline: none;
     border-radius: 8px;
+    width: 100%;
 }
 
 .login img {
@@ -69,4 +70,40 @@ a{
     color: whitesmoke;
     text-decoration: none;
     margin-left: 10px;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+   
+    transition: all .3s ease-out;
+}
+
+.label-float{
+    position: relative;
+    padding-top:13px ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px;
+}
+
+.label-float label{
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin-top: 42px;
+    margin-left: 10px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    
 }

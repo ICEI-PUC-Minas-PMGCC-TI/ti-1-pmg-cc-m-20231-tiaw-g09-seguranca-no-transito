@@ -19,32 +19,40 @@
                 <a href="index.html"><img href="steero.html" src="STEEROOOO.png"></a>
             </div>
             <form method="POST">
-                <input type="text" name="nome" id="login" placeholder="Nome de Usuário" autofocus>
-                <input type="password" id="senha" name="senha" placeholder="Senha">
+                <div class="label-float">
+                <input type="text" id="login" placeholder='' required>
+                <label for="usuario">Usuario</label>
+
+            </div>
+
+
+            <div class="label-float">
+                <input type="password" id="senha" placeholder='' required>
+                <label for="senha">Senha</label>
+            </div>
+
+
+
+            <div class="justify-center"> 
                 <input type="submit" value="Entrar" onclick="logar(); return false">
+            </div>
+
+            <div class="justify-center">
+                <hr>
+            </div>
+
             </form>
+
             <p>Ainda não tem uma conta?<a href="criarconta.html">Criar Conta</a></p>
+
+
         </div>
     </section>
 
-    <script>
+    
 
-        function logar(){
-            var login = document.getElementById('login').value;
-            var senha = document.getElementById('senha').value;
-
-            if (login == "admin" && senha == "admin") {
-                alert('Sucesso');
-                location.href = "index.html";
-            }else {
-                alert('Usuário ou senha errados! Tente novamente');
-                location.href = "login.html";
-            }
-        }
-
-
-
-    </script>
+    <script src="criar.js"></script>
+    
     
 </body>
 </html>
