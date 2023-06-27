@@ -18,23 +18,25 @@
             <div>
                 <a href="index.html"><img href="steero.html" src="STEEROOOO.png"></a>
             </div>
+
+            <div id="msgError"></div>    
             <form method="POST">
                 <div class="label-float">
                 <input type="text" id="login" placeholder='' required>
-                <label for="usuario">Usuario</label>
+                <label id="userLabel" for="usuario">Usuario</label>
 
             </div>
 
 
             <div class="label-float">
                 <input type="password" id="senha" placeholder='' required>
-                <label for="senha">Senha</label>
+                <label id="senhaLabel" for="senha">Senha</label>
             </div>
 
 
 
             <div class="justify-center"> 
-                <input type="submit" value="Entrar" onclick="logar(); return false">
+                <input type="submit" value="Entrar" onclick="entrar()">
             </div>
 
             <div class="justify-center">
@@ -51,7 +53,7 @@
 
     
 
-    <script src="criar.js"></script>
+    <script src="login.js"></script>
     
     
 </body>
