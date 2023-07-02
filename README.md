@@ -25,3 +25,5 @@ Sprint 1: Foi feito o envio dos relatórios e planejamentos para as futuras Spri
 Sprint 2: Planejado entre o grupo e seus integrantes a melhora do WebSite STEERO com mais animações, informações e um visual melhor, adicionado também botões para futuras funcionalidades.
 
 Sprint 3: Está sendo planejado para a sprint 3 a criação de um velocímetro funcional que identifique a velocidade do veículo pelo GPS.
+
+Sprintf 4: Sistema de Cadastro e Login finalizados, api do Velocimetro está 100% funcional juntamente com a api de velocidades
