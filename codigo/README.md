@@ -15,4 +15,4 @@ Agora adicionado cadastro e login com localStorage, webApp ja está com quase 10
 Para melhores funcionalidades do projeto e da API favor utilizar o link do Replit deixado no Readme do código e na descrição, e que de preferência utilizando de um dispositivo móvel:
 
 
-https://steero-com-velocimetro.kaikyfranca.repl.co/steero.html
+https://steero-ti-front-end.kaikyfranca.repl.co/
